@@ -11,13 +11,13 @@ st.title("Water Potability Prediction")
 # Load the saved model and feature columns
 @st.cache_resource
 def load_model():
-    model = joblib.load('water_potability_model.joblib')
+    model = joblib.load('water_potability_model1.joblib')
     return model
 
 
 @st.cache_data
 def load_features():
-    with open('feature_columns.json', 'r') as f:
+    with open('feature_columns1.json', 'r') as f:
         features = json.load(f)
     return features
 
