@@ -5,7 +5,7 @@ import joblib
 import json
 # print(np.__version__)
 # Set app title
-st.title("Water Potability Prediction")
+st.title("Water Potability Prediction-M Umar Islam")
 
 
 # Load the saved model and feature columns
@@ -48,6 +48,7 @@ def user_input_features():
 
 
 # Display user input
+
 st.header("Water Quality Parameters")
 st.write("Adjust the sliders in the sidebar and see the prediction")
 
